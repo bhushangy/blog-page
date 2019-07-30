@@ -5,9 +5,10 @@ body{
 	padding: 20px;          
 	max-width:700px;
 	width: 80%;
-	margin:20px auto;   /* this means 0 px on top and bottom and center on left and right*/ 
+	margin:20px auto;   /* this means 0 px on top and bottom and center on left and right....and also u can use px for body and then for other ele u can give % meaning 5% of 20px...so giving body px values is fine   */ 
 	font-family: 'Open Sans', sans-serif; /*if u apply to body it'll work for all*/
     background-image: linear-gradient(to left, #667eea  , #764ba2);
+
 
 
 }
@@ -16,8 +17,14 @@ body{
 
 h2{
 	color: #2c3e50;
-	font-size: 2.0rem;
+	
 }
+
+.r{
+	font-size: 2.0vw;  /*resposive text....can have 2 rem instead*/
+}
+
+
 
 .bor{
 	border-left:5px solid #bdc3c7;
@@ -28,11 +35,17 @@ h2{
 	text-transform: uppercase;
 	color:#3499ff;
 	font-family: 'Open Sans', sans-serif;
-	letter-spacing: 0.2rem;   /*wtf is this rem...means 2 times the html size..if not specified then some default value's x 2*/
+	letter-spacing: 0.2rem;  
 	
 
 }
 
+
+p{
+
+	font-size: 1.2vw; /*resposive text....can have 1 remm instead*/
+
+}
 
 hr {
     border: 0;
